@@ -1,0 +1,39 @@
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.531);
+  color: white;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px;
+  /* gap: 80px; */
+  column-gap: 100px;
+  row-gap: 50px;
+  margin: 30px;
+
+  width: 800px;
+  height: 400px;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+}
+.img {
+  background-color: red;
+}
+
+.correct {
+  opacity: 1;
+}
+.clicked {
+  opacity: 1;
+}
+.hide {
+  opacity: 0;
+}
